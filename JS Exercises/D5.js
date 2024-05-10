@@ -122,7 +122,7 @@ while (numericArray[x] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 console.log("ESERCIZIO 10: ");
-//senza switch
+//senza switch alfabeto latino
 const charactersArray = ["g", "n", "u", "z", "d", "g", "M", "c"];
 const alfabeto = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Y", "Z"];
 const numbersArray = [];
@@ -166,50 +166,41 @@ for (let i = 0; i < charactersArray.length; i++) {
     case "I":
       switchNumbersArray.push(9);
       break;
-    case "K":
+    case "L":
       switchNumbersArray.push(10);
       break;
-    case "L":
+    case "M":
       switchNumbersArray.push(11);
       break;
-    case "M":
+    case "N":
       switchNumbersArray.push(12);
       break;
-    case "N":
+    case "O":
       switchNumbersArray.push(13);
       break;
-    case "O":
+    case "P":
       switchNumbersArray.push(14);
       break;
-    case "P":
+    case "Q":
       switchNumbersArray.push(15);
       break;
-    case "Q":
+    case "R":
       switchNumbersArray.push(16);
       break;
-    case "R":
+    case "S":
       switchNumbersArray.push(17);
       break;
-    case "S":
+    case "T":
       switchNumbersArray.push(18);
       break;
-    case "T":
+    case "U":
       switchNumbersArray.push(19);
       break;
-    case "U":
+    case "V":
       switchNumbersArray.push(20);
       break;
-    case "V":
-      switchNumbersArray.push(21);
-      break;
-    case "X":
-      switchNumbersArray.push(22);
-      break;
-    case "Y":
-      switchNumbersArray.push(23);
-      break;
     case "Z":
-      switchNumbersArray.push(24);
+      switchNumbersArray.push(21);
       break;
   }
 }

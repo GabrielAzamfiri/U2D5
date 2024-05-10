@@ -1,1 +1,127 @@
-/* Your styles here */
+body {
+  background-color: #e9edee;
+  /* e9edee */
+}
+.logo_container {
+  background-color: #222f3f;
+  height: 5rem;
+}
+
+.logo_top {
+  width: 8rem;
+  margin: 1rem 0 1rem 3rem;
+}
+a {
+  text-decoration: none;
+}
+.menu a {
+  color: white;
+  margin-right: 1rem;
+}
+nav {
+  background-color: #364759;
+  height: 2.5rem;
+}
+.menu div {
+  margin: 0 3rem;
+  line-height: 2.5rem;
+}
+.sezione {
+  margin: 2rem 2.5rem;
+}
+.shop_cards {
+  height: 2rem;
+  background-color: rgb(255, 123, 0);
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.gift_guide {
+  background-image: url(../images/bg-image.png);
+  height: 15rem;
+  background-position: top;
+  background-size: contain;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  line-height: 10rem;
+}
+.gift_guide p {
+  color: white;
+  font-weight: 600;
+}
+.perfect_gift {
+  background-color: white;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.sezione a {
+  color: #222f3f;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.nome_article {
+  padding: 2rem 0 1rem 2.5rem;
+}
+article {
+  width: 20rem;
+  height: 24rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 1rem;
+}
+.articoli {
+  text-align: center;
+}
+#kindle {
+  background-image: url(../images/img_1.jpg);
+}
+#pc {
+  background-image: url(../images/img_2.jpg);
+}
+#orologi {
+  background-image: url(../images/img_3.jpg);
+}
+#animali {
+  background-image: url(../images/img_4.jpg);
+}
+.play_gift div,
+.sound_gift div {
+  height: 26rem;
+  background-image: url(../images/img_9.png);
+  background-size: cover;
+  background-position: center;
+}
+.sound_gift div {
+  background-image: url(../images/img_10.png);
+}
+.play_gift,
+.sound_gift {
+  text-align: center;
+  line-height: 2rem;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  color: white;
+  line-height: 2.5rem;
+  text-decoration: underline;
+}
+.logo_bot {
+  width: 10rem;
+  padding-top: 1rem;
+}
+.click:hover {
+  cursor: pointer;
+  box-shadow: 8px 5px 5px rgba(201, 197, 197, 0.425);
+}
